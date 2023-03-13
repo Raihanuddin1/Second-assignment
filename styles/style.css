@@ -135,6 +135,7 @@ Main section styles
     font-size: 45px;
     border-left: 5px solid #FF900E;
 }
+
 .feature-title {
     font-weight: 600;
     font-size: 20px;
@@ -191,7 +192,8 @@ Main section styles
     /* transform: rotate(); */
     transition: width 10s ease;
 }
-.icon:hover{
+
+.icon:hover {
     background-color: #131313;
     width: 350px;
 }
@@ -235,18 +237,20 @@ Main section styles
     margin: 30px 100px 0px 100px;
 
 }
-.about{
+
+.about {
     box-shadow: 0px 0px 20px rgb(196, 193, 193);
     border-radius: 10px;
     margin: 0px 300px 100px 300px;
     padding: 20px 50px;
     text-align: center;
 }
-.feedback-title{
+
+.feedback-title {
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 24px;
-    
+
 }
 
 /*-------------------------------
@@ -266,7 +270,8 @@ Main section styles
         flex-direction: column;
         margin: 0px 10px;
     }
-    .top-features{
+
+    .top-features {
         flex-direction: column-reverse;
         margin: 0px 10px;
     }
@@ -276,7 +281,14 @@ Main section styles
     .brand-name {
         text-align: center;
     }
-    ul{
+
+    .btn-primary {
+        width: 120px;
+        height: 65px;
+        padding: 5px
+    }
+
+    ul {
         flex-direction: column;
     }
 
@@ -285,19 +297,21 @@ Main section styles
         width: 100%;
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 20px;
     }
 
     .section-title {
         margin-top: 30px;
     }
-    .section-three{
+
+    .section-three {
         margin-bottom: 100px;
     }
 
     .images {
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 100px;
         margin-left: 20px;
     }
 
@@ -323,12 +337,14 @@ Main section styles
         text-align: start;
         margin-left: 20px;
     }
-    .about{
+
+    .about {
         margin: 100px 20px 100px 20px;
     }
-    .footer{
-       margin-left: 20px;
-       margin-right: 20px;
+
+    .footer {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 
