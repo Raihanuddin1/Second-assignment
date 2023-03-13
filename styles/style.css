@@ -252,9 +252,7 @@ Main section styles
 /*-------------------------------
  Using Media Query for Mobile 
  --------------------------------*/
-.hide {
-    display: none;
-}
+
 
 @media only screen and (max-width:576px) {
     body {
@@ -288,7 +286,7 @@ Main section styles
     }
 
     .banner-title{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .section-title {
