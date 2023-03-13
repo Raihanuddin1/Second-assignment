@@ -59,6 +59,7 @@ Banner section style
 .banner {
     text-align: center;
     margin-top: 116px;
+    padding: 30px 100px;
 }
 
 .banner-title {
@@ -85,7 +86,9 @@ Banner section style
     margin-bottom: 52px;
 }
 
-.banner-image {}
+.banner-image {
+    width: 100%;
+}
 
 /* -------------------
 Main section styles 
@@ -185,9 +188,12 @@ Main section styles
     border-radius: 8px;
     padding: 0px 35px;
     text-align: center;
+    /* transform: rotate(); */
+    transition: width 10s ease;
 }
 .icon:hover{
     background-color: #131313;
+    width: 350px;
 }
 
 .icon-image {
@@ -257,10 +263,13 @@ Main section styles
 
     .nav-container,
     .features,
-    .top-features,
     .icons,
     .sponser-brand {
         flex-direction: column;
+        margin: 0px 10px;
+    }
+    .top-features{
+        flex-direction: column-reverse;
         margin: 0px 10px;
     }
 
@@ -269,10 +278,17 @@ Main section styles
     .brand-name {
         text-align: center;
     }
+    ul{
+        flex-direction: column;
+    }
 
     .nav-container,
     menu>ul {
         width: 100%;
+    }
+
+    .banner-title{
+        font-size: 25px;
     }
 
     .section-title {
@@ -288,7 +304,8 @@ Main section styles
     }
 
     .image-architect {
-        display: none;
+        /* display: none; */
+        width: 100%;
     }
 
     .btn-features {
